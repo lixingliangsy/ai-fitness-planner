@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - Ai Fitness Planner</title>
+    <meta name="description" content="Get answers to frequently asked questions about Ai Fitness Planner. Learn about pricing, features, compatibility, and more.">
+    
+    <!-- JSON-LD Schema for FAQPage -->
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Q1: How much does AI Fitness Planner cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI Fitness Planner offers a free 7-day trial with full access to all features. After the trial, the Basic plan is $9.99/month and includes personalized workout plans and nutrition tracking. The Premium plan at $19.99/month adds 1-on-1 AI coaching, progress predictions, and injury prevention recommendations. | Plan | Price | Features | |------|-------|----------| | Free Trial | $0 (7 days) | Full access to all features | | Basic | $9.99/month | Workout plans, nutrition tracking, progress photos | | Premium | $19.99/month | AI coaching, predictions, injury prevention, meal plans | ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q2: How does the AI create a personalized fitness plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our AI analyzes your fitness goals, current fitness level, available equipment, time constraints, and dietary preferences to generate a fully customized plan. The system uses machine learning trained on 10,000+ workout programs and 500+ scientific studies on exercise science to create safe, effective routines. - Training data: 10,000+ workout programs, 500+ peer-reviewed studies - Input parameters: Goals, fitness level, equipment, time, dietary restrictions - Output: Custom workout plan, nutrition guide, progress tracking ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q3: Can I use AI Fitness Planner without a gym membership?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. AI Fitness Planner works with any equipment setup, including no equipment at all. When you set up your profile, you specify your available equipment (none, dumbbells, resistance bands, full gym, etc.), and the AI generates workouts that use only what you have available. - Equipment options: None (bodyweight), dumbbells, resistance bands, kettlebells, full gym, calisthenics park - Workout types: Home workouts, gym workouts, outdoor workouts, travel workouts - Adaptation: Automatically adjusts if your equipment access changes ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q4: Is AI Fitness Planner suitable for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, AI Fitness Planner is designed for all fitness levels, including complete beginners. The AI starts with foundational movements and gradually increases intensity as you progress. Every exercise includes video demonstrations and form cues to ensure you perform movements safely and correctly. - Beginner features: Video demonstrations, form cues, rest timer, alternative exercises - Progression: Automatic difficulty adjustment based on your performance - Safety: Built-in rest days, injury prevention alerts, form check reminders ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q5: How does the nutrition planning feature work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI generates personalized meal plans based on your calorie target, macronutrient preferences, dietary restrictions, and food allergies. You can specify cuisines you enjoy, foods to avoid, and meal prep preferences. The system creates a 7-day rotating meal plan with recipes and a printable grocery list. - Dietary options: Keto, vegan, vegetarian, paleo, Mediterranean, gluten-free, dairy-free - Features: Recipe generator, grocery list, calorie tracker, macro tracker - Customization: Swap meals, adjust portions, exclude ingredients ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q6: Can I track my progress over time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, AI Fitness Planner includes comprehensive progress tracking. You can log workouts, take progress photos, record body measurements, and track strength gains. The AI analyzes your data and generates progress reports with predictions for future results if you stay consistent with your current plan. - Tracking metrics: Weight, body fat %, measurements, strength gains, workout completion - Visualization: Progress charts, before/after photos, strength progression graphs - Predictions: AI forecasts results based on your current trajectory ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q7: Is my health data private and secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we take data privacy seriously. All health data is encrypted with AES-256 and stored on HIPAA-compliant servers. We never sell your data to third parties. You can export or delete your data at any time. Our privacy policy is transparent about exactly what data we collect and why. - Encryption: AES-256 for data at rest, TLS 1.3 for data in transit - Compliance: HIPAA, GDPR, CCPA - Data rights: Export, delete, or modify your data anytime ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q8: Does AI Fitness Planner integrate with wearable devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, AI Fitness Planner integrates with Apple Health, Google Fit, Fitbit, Garmin, and Whoop. The integration syncs your activity data, heart rate, and calories burned, allowing the AI to make more accurate recommendations. Setup takes less than 1 minute with secure OAuth authentication. - Supported devices: Apple Watch, Fitbit, Garmin, Whoop, Oura Ring, Samsung Health - Synced data: Steps, heart rate, calories burned, sleep, active minutes - Benefits: More accurate calorie targets, recovery recommendations ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q9: What if I have an injury or medical condition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI Fitness Planner includes injury and medical condition settings. You can specify injuries, limitations, or conditions (like knee pain, lower back issues, diabetes, etc.), and the AI will avoid exercises that could aggravate your condition and suggest modifications. However, we always recommend consulting your doctor before starting any new fitness program. - Supported conditions: 50+ common injuries and conditions - Modifications: Alternative exercises, reduced range of motion, equipment substitutions - Disclaimer: Not a substitute for medical advice; consult your physician ---"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q10: Can I cancel my subscription anytime?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can cancel your subscription at any time with no cancellation fees. When you cancel, you'll retain access until the end of your billing period. You can also pause your subscription for up to 3 months if you're traveling or taking a break, preserving your data and settings. - Cancellation: Anytime via account settings, no fees - Pause option: Pause for 1-3 months, resume anytime - Data retention: 90 days after cancellation (can request extension) ---"
+      }
+    }
+  ]
+}
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #111827;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+        }
+        .faq-item {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f3f4f6;
+            border-radius: 8px;
+        }
+        .faq-item h3 {
+            color: #1f2937;
+            margin-top: 0;
+        }
+        .answer-summary {
+            font-size: 1.1em;
+            color: #374151;
+            margin-bottom: 10px;
+        }
+        details {
+            margin-top: 10px;
+        }
+        summary {
+            cursor: pointer;
+            color: #3b82f6;
+            font-weight: 500;
+        }
+        .answer-details {
+            margin-top: 10px;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <p class="intro">Everything you need to know about Ai Fitness Planner. Can't find the answer? <a href="./support.html">Contact our support team</a>.</p>
+        
+        <div class="faq-list">
+            
+        <div class="faq-item">
+            <h3>Q1: How much does AI Fitness Planner cost?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> AI Fitness Planner offers a free 7-day trial with full access to all features. After the trial, the Basic plan is $9.99/month and includes personalized workout plans and nutrition tracking. The Premiu</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        AI Fitness Planner offers a free 7-day trial with full access to all features. After the trial, the Basic plan is $9.99/month and includes personalized workout plans and nutrition tracking. The Premium plan at $19.99/month adds 1-on-1 AI coaching, progress predictions, and injury prevention recommendations. | Plan | Price | Features | |------|-------|----------| | Free Trial | $0 (7 days) | Full access to all features | | Basic | $9.99/month | Workout plans, nutrition tracking, progress photos | | Premium | $19.99/month | AI coaching, predictions, injury prevention, meal plans | ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q2: How does the AI create a personalized fitness plan?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Our AI analyzes your fitness goals, current fitness level, available equipment, time constraints, and dietary preferences to generate a fully customized plan. The system uses machine learning trained </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Our AI analyzes your fitness goals, current fitness level, available equipment, time constraints, and dietary preferences to generate a fully customized plan. The system uses machine learning trained on 10,000+ workout programs and 500+ scientific studies on exercise science to create safe, effective routines. - Training data: 10,000+ workout programs, 500+ peer-reviewed studies - Input parameters: Goals, fitness level, equipment, time, dietary restrictions - Output: Custom workout plan, nutrition guide, progress tracking ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q3: Can I use AI Fitness Planner without a gym membership?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Absolutely. AI Fitness Planner works with any equipment setup, including no equipment at all. When you set up your profile, you specify your available equipment (none, dumbbells, resistance bands, ful</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Absolutely. AI Fitness Planner works with any equipment setup, including no equipment at all. When you set up your profile, you specify your available equipment (none, dumbbells, resistance bands, full gym, etc.), and the AI generates workouts that use only what you have available. - Equipment options: None (bodyweight), dumbbells, resistance bands, kettlebells, full gym, calisthenics park - Workout types: Home workouts, gym workouts, outdoor workouts, travel workouts - Adaptation: Automatically adjusts if your equipment access changes ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q4: Is AI Fitness Planner suitable for beginners?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, AI Fitness Planner is designed for all fitness levels, including complete beginners. The AI starts with foundational movements and gradually increases intensity as you progress. Every exercise in</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, AI Fitness Planner is designed for all fitness levels, including complete beginners. The AI starts with foundational movements and gradually increases intensity as you progress. Every exercise includes video demonstrations and form cues to ensure you perform movements safely and correctly. - Beginner features: Video demonstrations, form cues, rest timer, alternative exercises - Progression: Automatic difficulty adjustment based on your performance - Safety: Built-in rest days, injury prevention alerts, form check reminders ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q5: How does the nutrition planning feature work?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> The AI generates personalized meal plans based on your calorie target, macronutrient preferences, dietary restrictions, and food allergies. You can specify cuisines you enjoy, foods to avoid, and meal</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        The AI generates personalized meal plans based on your calorie target, macronutrient preferences, dietary restrictions, and food allergies. You can specify cuisines you enjoy, foods to avoid, and meal prep preferences. The system creates a 7-day rotating meal plan with recipes and a printable grocery list. - Dietary options: Keto, vegan, vegetarian, paleo, Mediterranean, gluten-free, dairy-free - Features: Recipe generator, grocery list, calorie tracker, macro tracker - Customization: Swap meals, adjust portions, exclude ingredients ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q6: Can I track my progress over time?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, AI Fitness Planner includes comprehensive progress tracking. You can log workouts, take progress photos, record body measurements, and track strength gains. The AI analyzes your data and generate</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, AI Fitness Planner includes comprehensive progress tracking. You can log workouts, take progress photos, record body measurements, and track strength gains. The AI analyzes your data and generates progress reports with predictions for future results if you stay consistent with your current plan. - Tracking metrics: Weight, body fat %, measurements, strength gains, workout completion - Visualization: Progress charts, before/after photos, strength progression graphs - Predictions: AI forecasts results based on your current trajectory ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q7: Is my health data private and secure?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, we take data privacy seriously. All health data is encrypted with AES-256 and stored on HIPAA-compliant servers. We never sell your data to third parties. You can export or delete your data at an</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, we take data privacy seriously. All health data is encrypted with AES-256 and stored on HIPAA-compliant servers. We never sell your data to third parties. You can export or delete your data at any time. Our privacy policy is transparent about exactly what data we collect and why. - Encryption: AES-256 for data at rest, TLS 1.3 for data in transit - Compliance: HIPAA, GDPR, CCPA - Data rights: Export, delete, or modify your data anytime ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q8: Does AI Fitness Planner integrate with wearable devices?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> Yes, AI Fitness Planner integrates with Apple Health, Google Fit, Fitbit, Garmin, and Whoop. The integration syncs your activity data, heart rate, and calories burned, allowing the AI to make more acc</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, AI Fitness Planner integrates with Apple Health, Google Fit, Fitbit, Garmin, and Whoop. The integration syncs your activity data, heart rate, and calories burned, allowing the AI to make more accurate recommendations. Setup takes less than 1 minute with secure OAuth authentication. - Supported devices: Apple Watch, Fitbit, Garmin, Whoop, Oura Ring, Samsung Health - Synced data: Steps, heart rate, calories burned, sleep, active minutes - Benefits: More accurate calorie targets, recovery recommendations ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q9: What if I have an injury or medical condition?</h3>
+            <div class="answer"><div class="warning" style="background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 10px 0;"><strong>⚠️ Note:</strong> This feature is coming soon (expected in next release).</div>
+                <p class="answer-summary"><strong>Answer:</strong> AI Fitness Planner includes injury and medical condition settings. You can specify injuries, limitations, or conditions (like knee pain, lower back issues, diabetes, etc.), and the AI will avoid exerc</p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        AI Fitness Planner includes injury and medical condition settings. You can specify injuries, limitations, or conditions (like knee pain, lower back issues, diabetes, etc.), and the AI will avoid exercises that could aggravate your condition and suggest modifications. However, we always recommend consulting your doctor before starting any new fitness program. - Supported conditions: 50+ common injuries and conditions - Modifications: Alternative exercises, reduced range of motion, equipment substitutions - Disclaimer: Not a substitute for medical advice; consult your physician ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3>Q10: Can I cancel my subscription anytime?</h3>
+            <div class="answer">
+                <p class="answer-summary"><strong>Answer:</strong> Yes, you can cancel your subscription at any time with no cancellation fees. When you cancel, you'll retain access until the end of your billing period. You can also pause your subscription for up to </p>
+                <details>
+                    <summary>Read detailed explanation</summary>
+                    <div class="answer-details">
+                        Yes, you can cancel your subscription at any time with no cancellation fees. When you cancel, you'll retain access until the end of your billing period. You can also pause your subscription for up to 3 months if you're traveling or taking a break, preserving your data and settings. - Cancellation: Anytime via account settings, no fees - Pause option: Pause for 1-3 months, resume anytime - Data retention: 90 days after cancellation (can request extension) ---
+                    </div>
+                </details>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>
