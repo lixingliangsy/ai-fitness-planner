@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# LLM / AI answer-engine indexing
+LLM-Content: https://ai-fitness-planner.lxsaihub.com/llms.txt
+
+Sitemap: https://ai-fitness-planner.lxsaihub.com/sitemap.xml

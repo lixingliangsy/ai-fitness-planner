@@ -1,0 +1,174 @@
+import Head from 'next/head'
+
+import { buildFaqJsonLd, buildHowToJsonLd } from '../lib/schema'
+
+const NAME = "AI Fitness Planner"
+
+const faqs = [
+  {
+    "question": "What does AI Fitness Planner do?",
+    "answer": "It assembles personalized workout blocks with equipment-aware exercises and optional diet suggestions, matched to your goal, experience level, and the time you actually have."
+  },
+  {
+    "question": "Is the nutrition part a diet plan?",
+    "answer": "No. The diet suggestions are general direction for healthy adults, not a clinical or therapeutic diet. For allergies, medical nutrition needs, or a diagnosed condition, work with a registered dietitian or clinician."
+  },
+  {
+    "question": "Is this medical advice?",
+    "answer": "No. It is planning support and carries an explicit non-medical disclaimer. Check with a clinician before starting if you have a condition, are pregnant, or are returning after injury."
+  },
+  {
+    "question": "What do I need to provide?",
+    "answer": "Your goal, your experience level, the number of days per week you can train, and the equipment you have. The plan is only as realistic as the constraints you enter."
+  },
+  {
+    "question": "Do the workouts require a gym?",
+    "answer": "No. Equipment is an input, so a home setup with dumbbells or bodyweight produces a different plan than a full gym. Enter what you actually have."
+  },
+  {
+    "question": "What are the limits?",
+    "answer": "It does not track your sessions, verify your form, or adapt automatically to results. Treat the output as a starting structure you adjust as you learn what your week can absorb."
+  }
+] as { question: string; answer: string }[]
+
+const howToBlocks = [
+  {
+    "name": "Plan a week of training with AI Fitness Planner",
+    "steps": [
+      {
+        "name": "Set your goal and level",
+        "text": "Choose the outcome and the experience level that matches where you are now."
+      },
+      {
+        "name": "Choose your training days",
+        "text": "Enter the days per week you can genuinely commit to, not the ones you aspire to."
+      },
+      {
+        "name": "Add your equipment",
+        "text": "List what you have so the exercise selection stays realistic."
+      },
+      {
+        "name": "Review blocks and diet notes",
+        "text": "Read the workout blocks and the optional diet suggestions, then adjust to taste and recovery."
+      }
+    ]
+  }
+] as { name: string; steps: { name: string; text: string }[] }[]
+
+const posts = [
+  { title: "What is AI Fitness Planner — and when to use it", type: "HowTo", desc: "What the planner produces and how it differs from a generic template." },
+  { title: "How to plan a training week in 10 minutes", type: "HowTo", desc: "Goal, days, equipment, review — a first pass you can actually follow." },
+  { title: "What is Common fitness-planning mistakes (and how to avoid them)?", type: "FAQPage", desc: "Over-scheduling, ignoring recovery, and copying a plan built for someone else's equipment." },
+  { title: "How does AI fitness planning compare to hiring a coach?", type: "Article", desc: "Where a generated plan is enough and where human coaching still pays for itself." },
+] as { title: string; type: string; desc: string }[]
+
+const glance = [
+  "Input: goal, experience level, days per week, available equipment",
+  "Output: workout blocks with equipment-aware exercises and optional diet suggestions",
+  "Best for: people who want a plan plus light nutrition direction in one pass",
+  "Limits: planning support only — not medical advice, diagnosis, or a clinical diet plan",
+]
+
+const articlesJsonLd = posts
+  .filter((p) => p.type === 'Article')
+  .map((p) => ({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: p.title,
+    description: p.desc,
+    inLanguage: 'en',
+    author: { '@type': 'Organization', name: NAME },
+    publisher: { '@type': 'Organization', name: NAME },
+    about: NAME,
+  }))
+
+export default function Page() {
+  return (
+    <>
+      <Head>
+        <link rel="canonical" href="https://ai-fitness-planner.lxsaihub.com/blog" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqJsonLd(faqs)) }}
+        />
+        {howToBlocks.map((block, i) => (
+          <script
+            key={`howto-${i}`}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(buildHowToJsonLd(block.name, block.steps)),
+            }}
+          />
+        ))}
+        {articlesJsonLd.map((a, i) => (
+          <script
+            key={`article-${i}`}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(a) }}
+          />
+        ))}
+
+        <title>{NAME} — Blog</title>
+        <meta name="description" content={{NAME} + ' — definitional and how-to posts, with the honest limits.'} />
+      </Head>
+      <div className="min-h-screen bg-slate-50 text-slate-800">
+        <header className="border-b border-slate-200 bg-white">
+          <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="/" className="font-bold text-slate-900">{NAME}</a>
+            <nav className="hidden md:flex gap-6 text-sm font-semibold text-slate-500">
+              <a href="/use-cases" className="hover:text-slate-900">Use cases</a>
+              <a href="/integrations" className="hover:text-slate-900">Integrations</a>
+              <a href="/how-it-works" className="hover:text-slate-900">How it works</a>
+              <a href="/security" className="hover:text-slate-900">Security</a>
+              <a href="/blog" className="hover:text-slate-900">Blog</a>
+            </nav>
+          </div>
+        </header>
+        <main className="max-w-3xl mx-auto px-6 py-14">
+          <h1 className="text-3xl font-bold text-slate-900">Blog</h1>
+          <p className="mt-3 text-slate-600">Personalized workout blocks, with optional diet suggestions, built around your week.</p>
+
+          <section className="mt-8 rounded-xl border border-slate-200 bg-white p-6">
+            <h2 className="text-lg font-bold text-slate-900">What does {NAME} include at a glance?</h2>
+            <ul className="mt-3 space-y-2 text-sm text-slate-600 list-disc pl-5">
+              {glance.map((g) => (
+                <li key={g}>{g}</li>
+              ))}
+            </ul>
+          </section>
+
+          <h2 className="text-2xl font-bold mt-12 text-slate-900">What do people ask about {NAME}?</h2>
+          <div className="mt-4 space-y-3">
+            {faqs.map((f) => (
+              <details key={f.question} className="rounded-xl border border-slate-200 bg-white p-4">
+                <summary className="font-semibold cursor-pointer text-slate-900">{f.question}</summary>
+                <p className="mt-2 text-sm text-slate-600">{f.answer}</p>
+              </details>
+            ))}
+          </div>
+
+          <h2 className="text-2xl font-bold mt-12 mb-2 text-slate-900">Which deep-dives should you read first?</h2>
+          <div className="mt-4 grid gap-5 sm:grid-cols-2">
+            {posts.map((p) => (
+              <article key={p.title} className="rounded-xl border border-slate-200 bg-white p-6">
+                <div className="text-xs font-semibold text-indigo-600 mb-1">{p.type}</div>
+                <h3 className="font-semibold text-slate-900">{p.title}</h3>
+                <p className="mt-2 text-sm text-slate-600">{p.desc}</p>
+              </article>
+            ))}
+          </div>
+        </main>
+        <footer className="border-t border-slate-200 bg-white">
+          <div className="max-w-5xl mx-auto px-6 py-8 text-sm text-slate-500 flex flex-wrap gap-6">
+            <a href="/security" className="hover:text-slate-900">Security</a>
+            <a href="/use-cases" className="hover:text-slate-900">Use cases</a>
+            <a href="/integrations" className="hover:text-slate-900">Integrations</a>
+            <a href="/how-it-works" className="hover:text-slate-900">How it works</a>
+            <a href="/blog" className="hover:text-slate-900">Blog</a>
+          </div>
+        </footer>
+      </div>
+    </>
+  )
+}

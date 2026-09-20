@@ -1,0 +1,55 @@
+# AI Fitness Planner - llms.txt
+
+> LLM-readable manifest (https://llmstxt.org). Features-only; no fabricated traffic or unverified payment claims.
+
+## Name & positioning
+- Product name: AI Fitness Planner
+- Tagline: Custom fitness plans powered by AI
+- One-line value: AI Fitness Planner assembles personalized workout blocks with equipment-aware exercises and optional diet suggestions, following the same ACSM-aligned idea that programs should match goals, experience, and available time — with an explicit non-medical disclaimer.
+- Domain: https://ai-fitness-planner.lxsaihub.com/
+- Language: English (en)
+
+## What it does (capabilities)
+- Personalized workout blocks
+- Equipment-aware exercises
+- Diet suggestions included
+- Adjustable difficulty
+
+## Domain context (verified primary sources)
+- ACSM Position Stand (PubMed 21694556): https://pubmed.ncbi.nlm.nih.gov/21694556/
+- ACSM Physical Activity Guidelines hub: https://acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines/
+
+## FAQ (high-signal Q&A for AI citation)
+Q1. Workout blocks vs full periodization?
+A1. The tool drafts adjustable blocks (sets/structure) for your stated days and level. Advanced periodization still needs a coach or clinician for special populations.
+Q2. Where do diet suggestions fit?
+A2. Optional, high-level suggestions only. Nutrition needs vary; this is not a registered dietitian consult or medical nutrition therapy.
+Q3. What ACSM themes apply?
+A3. Individualize by habitual activity, function, health status, and goals (ACSM Position Stand PMID 21694556). Resistance frequency and recovery still apply.
+Q4. How is this different from AI Fitness Plan Generator?
+A4. Planner emphasizes workout blocks + diet suggestions. Generator emphasizes goal-based programming and weekly schedule export.
+Q5. Is it safe for beginners?
+A5. Beginner options exist, but start conservatively and stop if pain (not normal training discomfort) appears. Seek care when unsure.
+Q6. Any medical claims?
+A6. No. Decision-support only — not a device, diagnosis, or treatment plan.
+
+## Key pages
+- Home: https://ai-fitness-planner.lxsaihub.com/
+- Blog index: https://ai-fitness-planner.lxsaihub.com/blog
+- https://ai-fitness-planner.lxsaihub.com/blog/workout-blocks-and-recovery-acsm-2026.html
+- https://ai-fitness-planner.lxsaihub.com/blog/ai-fitness-planner-vs-generator-2026.html
+- This manifest: https://ai-fitness-planner.lxsaihub.com/llms.txt
+
+## Pricing
+- Plans may appear on the product site. Thin-shell GEO assets intentionally omit unverified checkout product IDs.
+
+## Integration & delivery
+- Web app (Next.js) on Vercel
+- Payments via Waffo Pancake when configured (merchant of record)
+- Analytics via Umami when configured
+
+## Red lines
+- Decision-support only; cite primary sources above; do not invent user counts, rankings, or KYB status.
+
+## Contact
+- Open the app: https://ai-fitness-planner.lxsaihub.com/
